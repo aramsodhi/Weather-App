@@ -46,11 +46,15 @@ cityButton.addEventListener("click", () => {
 		const imageSrc = `url(http://openweathermap.org/img/wn/${icon}@2x.png)`;
 		descriptionImg.style = `background-image: ${imageSrc}`;
 		descriptionImg.style.display = "block";
-		
+
 		if (icon.charAt(2) === "n") {
 			imgBackground.style = "background-color: lightblue";
+			document.body.stlye = "background: rgb(0,104,255)";
+			document.body.style = "background: linear-gradient(0deg, rgba(0,104,255,1) 0%, rgba(9,9,121,1) 100%)";
 		} else {
 			imgBackground.style = "background-color: #0b0b45";
+			document.body.style = "background: rgb(34,193,195)";
+			document.body.style = "background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,154,253,1) 100%)";
 		}
 
 		separator.style.display = "block";
