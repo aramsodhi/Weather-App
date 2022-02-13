@@ -1,6 +1,5 @@
 "use strict";
 
-// give credit to creators for icons later
 const cityInput = document.getElementById("city");
 const cityButton = document.getElementById("submitCity");
 
